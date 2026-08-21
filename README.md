@@ -72,11 +72,11 @@ I enjoy turning complex real-world problems into practical, scalable software an
 
 # 📊 GitHub Stats:
 
-![](https://github-readme-stats.vercel.app/api?username=Kishangurav\&theme=dark\&hide_border=false\&include_all_commits=true\&count_private=true)<br/>
+![Kishan's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Kishangurav&show_icons=true&theme=dark&hide_border=false&include_all_commits=true&count_private=true)
 
-![](https://nirzak-streak-stats.vercel.app/?user=Kishangurav\&theme=dark\&hide_border=false)<br/>
+![GitHub Streak](https://nirzak-streak-stats.vercel.app/?user=Kishangurav&theme=dark&hide_border=false)
 
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Kishangurav\&theme=dark\&hide_border=false\&include_all_commits=true\&count_private=true\&layout=compact)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Kishangurav&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
 ## 🏆 GitHub Trophies
 
