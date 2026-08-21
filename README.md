@@ -30,8 +30,6 @@ I enjoy turning complex real-world problems into practical, scalable software an
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge\&logo=python\&logoColor=ffdd54)
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge\&logo=openjdk\&logoColor=white)
 ![C](https://img.shields.io/badge/c-%23A8B9CC.svg?style=for-the-badge\&logo=c\&logoColor=black)
-![C%23](https://img.shields.io/badge/c%23-%23512BD4.svg?style=for-the-badge\&logo=csharp\&logoColor=white)
-
 ![.NET](https://img.shields.io/badge/.NET-%23512BD4.svg?style=for-the-badge\&logo=dotnet\&logoColor=white)
 ![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-%23512BD4.svg?style=for-the-badge\&logo=dotnet\&logoColor=white)
 ![REST API](https://img.shields.io/badge/REST_APIs-%23009688.svg?style=for-the-badge)
@@ -40,13 +38,11 @@ I enjoy turning complex real-world problems into practical, scalable software an
 ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge\&logo=express\&logoColor=%2361DAFB)
 ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge\&logo=django\&logoColor=white)
 ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge\&logo=flask\&logoColor=white)
-
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge\&logo=react\&logoColor=%2361DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-%23000000.svg?style=for-the-badge\&logo=next.js\&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge\&logo=javascript\&logoColor=black)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge\&logo=html5\&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge\&logo=css3\&logoColor=white)
-
 ![Machine Learning](https://img.shields.io/badge/Machine_Learning-%23102230.svg?style=for-the-badge)
 ![Deep Learning](https://img.shields.io/badge/Deep_Learning-%23FF6F00.svg?style=for-the-badge)
 ![Generative AI](https://img.shields.io/badge/Generative_AI-%23412991.svg?style=for-the-badge)
@@ -57,12 +53,10 @@ I enjoy turning complex real-world problems into practical, scalable software an
 ![YOLOv8](https://img.shields.io/badge/YOLOv8-%23111F68.svg?style=for-the-badge)
 ![FAISS](https://img.shields.io/badge/FAISS-%230467DF.svg?style=for-the-badge)
 ![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge\&logo=streamlit\&logoColor=white)
-
 ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge\&logo=mysql\&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/postgresql-%23336791.svg?style=for-the-badge\&logo=postgresql\&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge\&logo=mongodb\&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-%23025E8C.svg?style=for-the-badge)
-
 ![Docker](https://img.shields.io/badge/docker-%232496ED.svg?style=for-the-badge\&logo=docker\&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326CE5.svg?style=for-the-badge\&logo=kubernetes\&logoColor=white)
 ![Azure](https://img.shields.io/badge/azure-%230078D4.svg?style=for-the-badge\&logo=microsoftazure\&logoColor=white)
@@ -70,7 +64,6 @@ I enjoy turning complex real-world problems into practical, scalable software an
 ![GitHub](https://img.shields.io/badge/github-%23181717.svg?style=for-the-badge\&logo=github\&logoColor=white)
 ![CI/CD](https://img.shields.io/badge/CI%2FCD-%232088FF.svg?style=for-the-badge)
 ![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-%23231F20.svg?style=for-the-badge\&logo=apachekafka\&logoColor=white)
-
 ![Solidity](https://img.shields.io/badge/Solidity-%23363636.svg?style=for-the-badge\&logo=solidity\&logoColor=white)
 ![Ethereum](https://img.shields.io/badge/Ethereum-%233C3C3D.svg?style=for-the-badge\&logo=ethereum\&logoColor=white)
 ![Web3](https://img.shields.io/badge/Web3-%23F16822.svg?style=for-the-badge)
