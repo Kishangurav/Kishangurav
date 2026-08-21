@@ -70,13 +70,11 @@ I enjoy turning complex real-world problems into practical, scalable software an
 ![Hardhat](https://img.shields.io/badge/Hardhat-%23FFF100.svg?style=for-the-badge)
 ![Smart Contracts](https://img.shields.io/badge/Smart_Contracts-%234B0082.svg?style=for-the-badge)
 
-# 📊 GitHub Stats:
+# 📊 GitHub Stats
 
-![Kishan's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Kishangurav&show_icons=true&theme=dark&hide_border=false&include_all_commits=true&count_private=true)
-
-![GitHub Streak](https://nirzak-streak-stats.vercel.app/?user=Kishangurav&theme=dark&hide_border=false)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Kishangurav&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Kishangurav&theme=github-dark&hide_border=true" width="100%"/>
+</p>
 
 ## 🏆 GitHub Trophies
 
