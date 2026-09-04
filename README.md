@@ -13,15 +13,18 @@
 ## 💫 About Me
 
 ```yaml
-name: Kishan
+name: Kishan Sanjay Gurav
 role: Final-Year B.E. Student, AI & Machine Learning
 university: RNS Institute of Technology (RNSIT), Bengaluru
+cgpa: 8.96 / 10
 graduation: 2027
 focus: [Applied AI, Deep Learning, Generative AI, Blockchain, NLP, Full-Stack Dev]
 looking_for: Software Engineer Intern roles
 certifications:
   - IBM Professional Certificate — Full Stack Software Development
   - IBM Professional Certificate — AI Development
+  - Retrieval Augmented Generation (RAG) — DeepLearning.AI
+  - NVIDIA: Prompt Engineering and Data Analysis — Coursera
 ```
 
 <table>
@@ -53,7 +56,7 @@ I enjoy turning complex real-world problems into practical, scalable software an
 </tr>
 </table>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284136-03988914-d899-44b4-b1d9-4eeccf656e44.gif" width="100%">
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%">
 
 ## 🛠️ Featured Projects
 
@@ -61,51 +64,61 @@ I enjoy turning complex real-world problems into practical, scalable software an
 <tr>
 <td width="50%">
 
-### 🚦 Vision-Based Traffic Violation Detection
-Real-time detection system using **YOLOv8** for vehicle detection and a custom **OpenCV** multi-object tracker. Flags red-light jumping and estimates speed, exposed via a **FastAPI** REST backend with a **React + Tailwind** dashboard.
+### 🩺 [VruCare — RAG-Based GenAI System for Kidney Stone](https://kidneystone-rag-chatbot.streamlit.app/)
+Domain-specific RAG chatbot delivering accurate, document-grounded kidney stone info from 20+ curated medical PDFs. Hybrid **BM25 + FAISS** retrieval with RRF, Hugging Face embeddings, and hallucination guardrails. Deployed on Streamlit.
 
-`YOLOv8` `OpenCV` `FastAPI` `React` `Tailwind`
+`Python` `RAG` `LangChain` `FAISS` `BM25` `Streamlit`
 
 </td>
 <td width="50%">
 
-### 📜 ConsentLedger — Research Paper
-Blockchain-enforced legal NLP framework for **RBI Account Aggregator** compliance. Combines **Legal-BERT NER**, **T5 summarization**, and **Solidity** smart contracts. F1: 0.910 (Legal-BERT), ROUGE-L: 0.74 (T5), 100% adversarial rejection by the ConsentRegistry contract.
+### 💰 [PFTUS — Blockchain Public Fund Tracking System](https://github.com/Kishangurav/v2)
+Transparency platform for government fund management with milestone-based smart contracts, NFT approval verification, and real-time public audits on **Polygon**. Role-based dashboards for Government, Contractors, Auditors, and Citizens. 🏆 1st Runner-Up, first hackathon.
 
-`Legal-BERT` `T5` `Solidity` `NLP`
+`Solidity` `Hardhat` `Next.js` `React` `Web3/EVM` `MetaMask`
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-### 🩺 KidneyStone RAG — Medical QA System
-A RAG-based GenAI system delivering safe, reliable, history-aware kidney stone information with minimized hallucinations, deployed on **Streamlit**.
+### 🚦 [Vision-Based Traffic Violation Detection](https://github.com/kishangurav/traffic-violation-detection)
+Real-time system using **YOLOv8** and a custom **OpenCV** multi-object tracker to detect red-light jumping, speeding, and helmet violations from live video, with evidence capture and a live **FastAPI + React** dashboard. Processes 25+ FPS, 9500+ violations flagged in testing.
 
-`RAG` `LangChain` `FAISS` `Streamlit`
+`YOLOv8` `OpenCV` `FastAPI` `React` `Deep Learning`
 
 </td>
 <td width="50%">
 
-### 💰 PFTUS — Public Fund Tracking System
-Blockchain-based public fund transparency system built with **Solidity**, **Next.js**, and **Hardhat**, deployed on **Polygon**.
+### 📜 ConsentLedger — Blockchain-Enforced Legal NLP Framework *(ongoing)*
+AI-powered framework enforcing RBI Account Aggregator consent policies. Combines **Legal-BERT** entity extraction, **T5** legal-text simplification, and **Ethereum** smart contracts. Legal-BERT F1: 0.910, T5 ROUGE-L: 0.74, 100% adversarial rejection by the ConsentRegistry contract.
 
-`Solidity` `Next.js` `Hardhat` `Polygon`
+`Legal-BERT` `T5` `Solidity` `Ethereum` `NLP`
+
+</td>
+</tr>
+<tr>
+<td colspan="2">
+
+### 🚨 [SnapNEarn — AI Traffic Safety & Rule Enforcement](https://github.com/Kishangurav/SnapNEarn-AI-Traffic-Safety)
+AI-powered platform letting users report traffic violations via image evidence, OCR, and GPS data. **Node.js/Express** REST APIs with JWT auth and role-based access, **MongoDB Atlas** storage, **Apache Kafka** for event-driven processing, and **Docker/Kubernetes** for containerized deployment on Render.
+
+`Node.js` `Express.js` `MongoDB Atlas` `Kafka` `Docker` `Kubernetes` `OCR`
 
 </td>
 </tr>
 </table>
 
-🏆 **1st Runner-Up** — EPOCH '26 Grand National 24-Hour Hackathon (Cybersecurity & Blockchain track)
+🏆 **1st Runner-Up** — EPOCH '26 Grand National 24-Hour Hackathon, Vemana Institute of Technology (Cybersecurity & Blockchain track) — ₹30,000 prize, 200+ competing teams
 
 ## 🌐 Connect With Me
 
 <div align="center">
 
-<a href="https://instagram.com/" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
-<a href="https://linkedin.com/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="#" target="_blank"><img src="https://img.shields.io/badge/Portfolio-6D28D9?style=for-the-badge&logo=vercel&logoColor=white" /></a>
-<a href="mailto:example@email.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<a href="https://www.linkedin.com/in/kishan-sanjay-gurav-7777i/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://kishan-sanjay-gurav.netlify.app/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-6D28D9?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+<a href="mailto:kishansanjaygurav23aiml@rnsit.ac.in"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<a href="https://github.com/Kishangurav" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
 
 </div>
 
@@ -174,7 +187,7 @@ Blockchain-based public fund transparency system built with **Solidity**, **Next
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284136-03988914-d899-44b4-b1d9-4eeccf656e44.gif" width="100%">
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%">
 
 ## 📊 GitHub Stats
 
