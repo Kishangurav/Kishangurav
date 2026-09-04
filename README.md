@@ -53,7 +53,7 @@ I enjoy turning complex real-world problems into practical, scalable software an
 </tr>
 </table>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%">
+<img src="https://user-images.githubusercontent.com/74038190/212284136-03988914-d899-44b4-b1d9-4eeccf656e44.gif" width="100%">
 
 ## 🛠️ Featured Projects
 
@@ -174,7 +174,7 @@ Blockchain-based public fund transparency system built with **Solidity**, **Next
 
 </div>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%">
+<img src="https://user-images.githubusercontent.com/74038190/212284136-03988914-d899-44b4-b1d9-4eeccf656e44.gif" width="100%">
 
 ## 📊 GitHub Stats
 
