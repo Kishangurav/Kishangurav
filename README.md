@@ -83,7 +83,7 @@ Transparency platform for government fund management with milestone-based smart 
 <td width="50%">
 
 ### 🚦 [Vision-Based Traffic Violation Detection](https://github.com/kishangurav/traffic-violation-detection)
-Real-time system using **YOLOv8** and a custom **OpenCV** multi-object tracker to detect red-light jumping, speeding, and helmet violations from live video, with evidence capture and a live **FastAPI + React** dashboard. Processes 25+ FPS, 9500+ violations flagged in testing.
+Real-time system using **YOLOv8** and along a custom **OpenCV** multi-object tracker to detect red-light jumping, speeding, and helmet violations from live video, with evidence capture and a live **FastAPI + React** dashboard. Processes 25+ FPS, 9500+ violations flagged in testing.
 
 `YOLOv8` `OpenCV` `FastAPI` `React` `Deep Learning`
 
