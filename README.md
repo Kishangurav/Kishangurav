@@ -189,16 +189,7 @@ AI-powered platform letting users report traffic violations via image evidence, 
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%">
 
-## 🐍 Contribution Snake
 
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kishangurav/Kishangurav/output/github-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kishangurav/Kishangurav/output/github-snake.svg">
-  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/Kishangurav/Kishangurav/output/github-snake.svg" width="100%">
-</picture>
-</div>
 
 ## 📊 GitHub Stats
 
@@ -211,13 +202,17 @@ AI-powered platform letting users report traffic violations via image evidence, 
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Kishangurav&theme=tokyo-night&hide_border=true" width="98%"/>
 
-</div>
 
-## 🏆 GitHub Trophies
 
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=Kishangurav&theme=tokyonight&no-frame=true&row=1&column=7"/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kishangurav/Kishangurav/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kishangurav/Kishangurav/output/github-snake.svg">
+  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/Kishangurav/Kishangurav/output/github-snake.svg" width="100%">
+</picture>
 </div>
+
 
 ## ✍️ Random Dev Quote
 
