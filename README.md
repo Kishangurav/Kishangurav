@@ -83,7 +83,7 @@ Transparency platform for government fund management with milestone-based smart 
 <td width="50%">
 
 ### 🚦 [Vision-Based Traffic Violation Detection](https://github.com/kishangurav/traffic-violation-detection)
-Real-time system using **YOLOv8** and along a custom **OpenCV** multi-object tracker to detect red-light jumping, speeding, and helmet violations from live video, with evidence capture and a live **FastAPI + React** dashboard. Processes 25+ FPS, 9500+ violations flagged in testing.
+Real-time system using **YOLOv8** and a custom **OpenCV** multi-object tracker to detect red-light jumping, speeding, and helmet violations from live video, with evidence capture and a live **FastAPI + React** dashboard. Processes 25+ FPS, 9500+ violations flagged in testing.
 
 `YOLOv8` `OpenCV` `FastAPI` `React` `Deep Learning`
 
@@ -189,6 +189,18 @@ AI-powered platform letting users report traffic violations via image evidence, 
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%">
 
+## 🐍 Contribution Snake
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kishangurav/Kishangurav/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kishangurav/Kishangurav/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Kishangurav/Kishangurav/output/github-contribution-grid-snake.svg" width="100%">
+</picture>
+
+</div>
+
 ## 📊 GitHub Stats
 
 <div align="center">
@@ -196,7 +208,8 @@ AI-powered platform letting users report traffic violations via image evidence, 
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Kishangurav&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true"/>
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kishangurav&layout=compact&theme=tokyonight&hide_border=true"/>
 
-<img src="https://streak-stats.demolab.com/?user=Kishangurav&theme=tokyonight&hide_border=true&cache=1" alt="GitHub Streak"/>
+<img src="https://streak-stats.demolab.com/?user=Kishangurav&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
+
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Kishangurav&theme=tokyo-night&hide_border=true" width="98%"/>
 
 </div>
