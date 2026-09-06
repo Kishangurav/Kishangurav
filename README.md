@@ -196,8 +196,7 @@ AI-powered platform letting users report traffic violations via image evidence, 
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Kishangurav&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true"/>
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kishangurav&layout=compact&theme=tokyonight&hide_border=true"/>
 
-<img src="https://streak-stats.demolab.com/?user=Kishangurav&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
-
+<img src="https://streak-stats.demolab.com/?user=Kishangurav&theme=tokyonight&hide_border=true&cache=1" alt="GitHub Streak"/>
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Kishangurav&theme=tokyo-night&hide_border=true" width="98%"/>
 
 </div>
