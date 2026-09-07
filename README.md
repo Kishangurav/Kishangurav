@@ -50,7 +50,7 @@ Machine Learning, Deep Learning, Generative AI, RAG, Cloud & DevOps, and scalabl
 AI, Generative AI, RAG, Full Stack Development, REST APIs, Backend Development, Blockchain.
 
 ### ⚡ Fun fact
-I enjoy turning complex real-world problems into practical, scalable software and AI solutions 🚀
+I enjoy turning complex real-world problems into practical, scalable software and AI solutions 
 
 </td>
 </tr>
