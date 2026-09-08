@@ -24,7 +24,6 @@ certifications:
   - IBM Professional Certificate — Full Stack Software Development
   - IBM Professional Certificate — AI Development
   - Retrieval Augmented Generation (RAG) — DeepLearning.AI
-  - NVIDIA: Prompt Engineering and Data Analysis — Coursera
 ```
 
 <table>
