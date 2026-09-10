@@ -44,7 +44,7 @@ Advanced DSA, system design, scalable backend architecture, and real-world AI de
 <td width="50%" valign="top">
 
 ### 🌱 Currently learning
-Machine Learning, Deep Learning, Generative AI, RAG, Cloud & DevOps, and scalable software engineering.
+Machine Learning, Deep Learning, Generative AI, RAG, Cloud & DevOps, and scalable software engineering and Developments.
 
 ### 💬 Ask me about
 AI, Generative AI, RAG, Full Stack Development, REST APIs, Backend Development, Blockchain.
