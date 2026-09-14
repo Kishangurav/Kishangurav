@@ -32,7 +32,7 @@ certifications:
 <td width="50%" valign="top">
 
 ### 🔭 Currently working on
-AI/ML projects, Generative AI applications, and full-stack web applications — including a vision-based traffic violation detection system and blockchain-backed compliance tooling.
+AI/ML projects, Generative AI applications, and full-stack web application — including a vision-based traffic violation detection system and blockchain-backed compliance tooling.
 
 ### 👯 Looking to collaborate on
 AI/ML, Generative AI, full-stack development, blockchain, and open-source projects.
