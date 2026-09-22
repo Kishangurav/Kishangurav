@@ -100,7 +100,7 @@ AI-powered framework enforcing RBI Account Aggregator consent policies. Combines
 <tr>
 <td colspan="2">
 
-### 🚨 [SnapNEarn — AI Traffic Safety & Rule Enforcement](https://github.com/Kishangurav/SnapNEarn-AI-Traffic-Safety)
+### 🚨 [SnapNEarn — AI Traffic Safety & Rule Enforcement][(https://github.com/Kishangurav/SnapNEarn-AI-Traffic-Safety)](https://snapnearn-ai-traffic-safety.onrender.com)
 AI-powered platform letting users report traffic violations via image evidence, OCR, and GPS data. **Node.js/Express** REST APIs with JWT auth and role-based access, **MongoDB Atlas** storage, **Apache Kafka** for event-driven processing, and **Docker/Kubernetes** for containerized deployment on Render.
 
 `Node.js` `Express.js` `MongoDB Atlas` `Kafka` `Docker` `Kubernetes` `OCR`
