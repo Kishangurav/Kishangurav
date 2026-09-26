@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Hi%20There,%20I'm%20Kishan%20👋&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI/ML%20Engineer%20|%20Full%20Stack%20Developer%20|%20Blockchain%20Enthusiast&descAlignY=55&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Hi%20There,%20I'm%20Kishan%20&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI/ML%20Engineer%20|%20Full%20Stack%20Developer%20|%20Blockchain%20Enthusiast&descAlignY=55&descSize=18" width="100%"/>
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Final-Year+AI%26ML+Engineer+%40+RNSIT;Building+Generative+AI+%26+RAG+Systems;Bridging+AI+with+Blockchain+%F0%9F%94%97;Turning+Ideas+into+Scalable+Software+%F0%9F%9A%80" alt="Typing SVG" />
@@ -10,7 +10,7 @@
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
-## 💫 About Me
+##  About Me
 
 ```yaml
 name: Kishan Sanjay Gurav
@@ -34,22 +34,22 @@ certifications:
 ### 🔭 Currently working on
 AI/ML projects, Generative AI applications, and full-stack web application — including a vision-based traffic violation detection system and blockchain-backed compliance tooling.
 
-### 👯 Looking to collaborate on
+###  Looking to collaborate on
 AI/ML, Generative AI, full-stack development, blockchain, and open-source projects.
 
-### 🤝 Looking for help with
+###  Looking for help with
 Advanced DSA, system design, scalable backend architecture, and real-world AI deployment.
 
 </td>
 <td width="50%" valign="top">
 
-### 🌱 Currently learning
+###  Currently learning
 Machine Learning, Deep Learning, Generative AI, RAG, Cloud & DevOps, and scalable software engineering and Developments.
 
-### 💬 Ask me about
+###  Ask me about
 AI ml, Generative AI, RAG, Full Stack Development, REST APIs, Backend Development, Blockchain.
 
-### ⚡ Fun fact
+###  Fun fact
 I enjoy turning complex real-world problems into practical, scalable softwares and AI solutions 
 
 </td>
@@ -72,7 +72,7 @@ Domain-specific RAG chatbot delivering accurate, document-grounded kidney stone 
 </td>
 <td width="50%">
 
-### 💰 [PFTUS — Blockchain Public Fund Tracking System](https://github.com/Kishangurav/v2)
+###  [PFTUS — Blockchain Public Fund Tracking System](https://github.com/Kishangurav/v2)
 Transparency platform for government fund management with milestone-based smart contracts, NFT approval verification, and real-time public audits on **Polygon**. Role-based dashboards for Government, Contractors, Auditors, and Citizens. 🏆 1st Runner-Up, first hackathon.
 
 `Solidity` `Hardhat` `Next.js` `React` `Web3/EVM` `MetaMask`
@@ -90,7 +90,7 @@ Real-time system using **YOLOv8** and a custom **OpenCV** multi-object tracker t
 </td>
 <td width="50%">
 
-### 📜 ConsentLedger — Blockchain-Enforced Legal NLP Framework *(ongoing)*
+###  ConsentLedger — Blockchain-Enforced Legal NLP Framework *(ongoing)*
 AI-powered framework enforcing RBI Account Aggregator consent policies. Combines **Legal-BERT** entity extraction, **T5** legal-text simplification, and **Ethereum** smart contracts. Legal-BERT F1: 0.910, T5 ROUGE-L: 0.74, 100% adversarial rejection by the ConsentRegistry contract.
 
 `Legal-BERT` `T5` `Solidity` `Ethereum` `NLP`
@@ -100,7 +100,7 @@ AI-powered framework enforcing RBI Account Aggregator consent policies. Combines
 <tr>
 <td colspan="2">
 
-### 🚨 [SnapNEarn — AI Traffic Safety & Rule Enforcement][(https://github.com/Kishangurav/SnapNEarn-AI-Traffic-Safety)](https://snapnearn-ai-traffic-safety.onrender.com)
+###  [SnapNEarn — AI Traffic Safety & Rule Enforcement][(https://github.com/Kishangurav/SnapNEarn-AI-Traffic-Safety)](https://snapnearn-ai-traffic-safety.onrender.com)
 AI-powered platform letting users report traffic violations via image evidence, OCR, and GPS data. **Node.js/Express** REST APIs with JWT auth and role-based access, **MongoDB Atlas** storage, **Apache Kafka** for event-driven processing, and **Docker/Kubernetes** for containerized deployment on Render.
 
 `Node.js` `Express.js` `MongoDB Atlas` `Kafka` `Docker` `Kubernetes` `OCR`
@@ -109,9 +109,9 @@ AI-powered platform letting users report traffic violations via image evidence, 
 </tr>
 </table>
 
-🏆 **1st Runner-Up** — EPOCH '26 Grand National 24-Hour Hackathon, Vemana Institute of Technology (Cybersecurity & Blockchain track) — ₹30,000 prize, 200+ competing teams
+ **1st Runner-Up** — EPOCH '26 Grand National 24-Hour Hackathon, Vemana Institute of Technology (Cybersecurity & Blockchain track) — ₹30,000 prize, 200+ competing teams
 
-## 🌐 Connect With Me
+##  Connect With Me
 
 <div align="center">
 
@@ -122,7 +122,7 @@ AI-powered platform letting users report traffic violations via image evidence, 
 
 </div>
 
-## 💻 Tech Stack
+##  Tech Stack
 
 <div align="center">
 
@@ -214,7 +214,7 @@ AI-powered platform letting users report traffic violations via image evidence, 
 </div>
 
 
-## ✍️ Random Dev Quote
+##  Random Dev Quote
 
 <div align="center">
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight"/>
@@ -224,6 +224,6 @@ AI-powered platform letting users report traffic violations via image evidence, 
 
 <div align="center">
 
-⭐️ *If you like what you see, feel free to explore my repositories and connect!*
+ *If you like what you see, feel free to explore my repositories and connect!*
 
 </div>
