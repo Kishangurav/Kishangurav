@@ -58,13 +58,13 @@ I enjoy turning complex real-world problems into practical, scalable softwares a
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%">
 
-## 🛠️ Featured Projects
+##  Featured Projects
 
 <table>
 <tr>
 <td width="50%">
 
-### 🩺 [VruCare — RAG-Based GenAI System for Kidney Stone](https://kidneystone-rag-chatbot.streamlit.app/)
+###  [VruCare — RAG-Based GenAI System for Kidney Stone](https://kidneystone-rag-chatbot.streamlit.app/)
 Domain-specific RAG chatbot delivering accurate, document-grounded kidney stone info from 20+ curated medical PDFs. Hybrid **BM25 + FAISS** retrieval with RRF, Hugging Face embeddings, and hallucination guardrails. Deployed on Streamlit.
 
 `Python` `RAG` `LangChain` `FAISS` `BM25` `Streamlit`
@@ -82,7 +82,7 @@ Transparency platform for government fund management with milestone-based smart 
 <tr>
 <td width="50%">
 
-### 🚦 [Vision-Based Traffic Violation Detection](https://github.com/kishangurav/traffic-violation-detection)
+###  [Vision-Based Traffic Violation Detection](https://github.com/kishangurav/traffic-violation-detection)
 Real-time system using **YOLOv8** and a custom **OpenCV** multi-object tracker to detect red-light jumping, speeding, and helmet violations from live video, with evidence capture and a live **FastAPI + React** dashboard. Processes 25+ FPS, 9500+ violations flagged in testing.
 
 `YOLOv8` `OpenCV` `FastAPI` `React` `Deep Learning`
