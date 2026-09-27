@@ -16,7 +16,7 @@
 name: Kishan Sanjay Gurav
 role: Final-Year B.E. Student, AI & Machine Learning
 university: RNS Institute of Technology (RNSIT), Bengaluru
-cgpa: 8.96 / 10(8th sem)
+cgpa: 8.96 / 10(6th sem)
 graduation: 2027
 focus: [Applied AI, Deep Learning, Generative AI, Blockchain, NLP, Full-Stack Dev]
 looking_for: Software Engineer Intern roles
