@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=240&section=header&text=Hi%2C%20I'm%20Kishan%20Gurav&fontSize=46&fontColor=ffffff&animation=twinkling&fontAlignY=36&desc=AI%2FML%20Engineer%20%7C%20Full%20Stack%20Developer%20%7C%20Blockchain%20Enthusiast&descAlignY=56&descSize=18" width="100%"/>
+<img src="https://raw.githubusercontent.com/Kishangurav/Kishangurav/main/panther-header.svg?v=1" width="100%" alt="Black Panther themed header"/>
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&width=800&height=50&lines=Final-Year+AI%26ML+Engineer+%40+RNSIT;Building+Generative+AI+%26+RAG+Systems;Bridging+AI+with+Blockchain;Turning+Ideas+into+Scalable+Software" alt="Typing SVG" />
@@ -100,7 +100,7 @@ AI-powered framework enforcing RBI Account Aggregator consent policies. Combines
 <tr>
 <td colspan="2">
 
-###  [SnapNEarn — AI Traffic Safety & Rule Enforcement][(https://github.com/Kishangurav/SnapNEarn-AI-Traffic-Safety)](https://snapnearn-ai-traffic-safety.onrender.com)
+###  [SnapNEarn — AI Traffic Safety & Rule Enforcement](https://snapnearn-ai-traffic-safety.onrender.com) · [GitHub](https://github.com/Kishangurav/SnapNEarn-AI-Traffic-Safety)
 AI-powered platform letting users report traffic violations via image evidence, OCR, and GPS data. **Node.js/Express** REST APIs with JWT auth and role-based access, **MongoDB Atlas** storage, **Apache Kafka** for event-driven processing, and **Docker/Kubernetes** for containerized deployment on Render.
 
 `Node.js` `Express.js` `MongoDB Atlas` `Kafka` `Docker` `Kubernetes` `OCR`
