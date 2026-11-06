@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Hi%20There,%20I'm%20Kishan%20&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI/ML%20Engineer%20|%20Full%20Stack%20Developer%20|%20Blockchain%20Enthusiast&descAlignY=55&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=240&section=header&text=Hi%2C%20I'm%20Kishan%20Gurav&fontSize=46&fontColor=ffffff&animation=twinkling&fontAlignY=36&desc=AI%2FML%20Engineer%20%7C%20Full%20Stack%20Developer%20%7C%20Blockchain%20Enthusiast&descAlignY=56&descSize=18" width="100%"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Final-Year+AI%26ML+Engineer+%40+RNSIT;Building+Generative+AI+%26+RAG+Systems;Bridging+AI+with+Blockchain+%F0%9F%94%97;Turning+Ideas+into+Scalable+Software+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&width=800&height=50&lines=Final-Year+AI%26ML+Engineer+%40+RNSIT;Building+Generative+AI+%26+RAG+Systems;Bridging+AI+with+Blockchain;Turning+Ideas+into+Scalable+Software" alt="Typing SVG" />
 </a>
 
 </div>
