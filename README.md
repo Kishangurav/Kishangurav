@@ -207,10 +207,11 @@ AI-powered platform letting users report traffic violations via image evidence, 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kishangurav/Kishangurav/output/github-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kishangurav/Kishangurav/output/github-snake.svg">
-  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/Kishangurav/Kishangurav/output/github-snake.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kishangurav/Kishangurav/output/github-snake-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kishangurav/Kishangurav/output/github-snake.svg?v=2">
+  <img alt="Black Panther themed contribution snake" src="https://raw.githubusercontent.com/Kishangurav/Kishangurav/output/github-snake-dark.svg?v=2" width="100%">
 </picture>
+
 </div>
 
 
