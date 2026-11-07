@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 220" width="100%" height="220">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260" width="100%" height="260">
   <defs>
+    <radialGradient id="bg" cx="50%" cy="60%" r="80%">
+      <stop offset="0%" stop-color="#160a29"/>
+      <stop offset="100%" stop-color="#030208"/>
+    </radialGradient>
     <pattern id="dim" width="20" height="20" patternUnits="userSpaceOnUse">
       <rect x="3" y="3" width="14" height="14" rx="3" fill="#1a1426"/>
     </pattern>
@@ -8,68 +12,175 @@
       <rect x="3" y="3" width="14" height="14" rx="3" fill="#5b21b6"/>
     </pattern>
     <pattern id="hot" width="140" height="60" patternUnits="userSpaceOnUse">
-      <rect x="23" y="3" width="14" height="14" rx="3" fill="#a78bfa"/>
-      <rect x="83" y="23" width="14" height="14" rx="3" fill="#c4b5fd"/>
+      <rect x="23" y="3" width="14" height="14" rx="3" fill="#8b5cf6"/>
+      <rect x="83" y="23" width="14" height="14" rx="3" fill="#a78bfa"/>
       <rect x="123" y="43" width="14" height="14" rx="3" fill="#7c3aed"/>
       <rect x="43" y="43" width="14" height="14" rx="3" fill="#7c3aed"/>
     </pattern>
+    <pattern id="bright" width="20" height="20" patternUnits="userSpaceOnUse">
+      <rect x="2" y="2" width="16" height="16" rx="3" fill="#e9d5ff"/>
+    </pattern>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="28"/></filter>
     <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
       <feGaussianBlur stdDeviation="3" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
+    <filter id="rim" x="-25%" y="-35%" width="150%" height="170%">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1.6" result="d"/>
+      <feFlood flood-color="#c4b5fd"/>
+      <feComposite in2="d" operator="in" result="outline"/>
+      <feGaussianBlur in="outline" stdDeviation="3" result="halo"/>
+      <feMerge><feMergeNode in="halo"/><feMergeNode in="outline"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="speed" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#a78bfa" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#e9d5ff"/>
+    </linearGradient>
     <clipPath id="trail">
-      <rect x="-100" y="0" width="0" height="220">
-        <animate attributeName="width" values="0;1140;1140" keyTimes="0;0.92;1" dur="9s" repeatCount="indefinite"/>
+      <rect x="-100" y="0" width="0" height="260">
+        <animate attributeName="width" values="0;1140;1140;1140" keyTimes="0;0.8;0.97;1" dur="12s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+    <clipPath id="wave">
+      <rect x="-260" y="0" width="170" height="260">
+        <animate attributeName="x" values="-260;880;880;880" keyTimes="0;0.8;0.97;1" dur="12s" repeatCount="indefinite"/>
       </rect>
     </clipPath>
   </defs>
 
-  <rect width="1000" height="220" fill="#05030a"/>
+  <rect width="1000" height="260" fill="url(#bg)"/>
 
-  <text x="500" y="26" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="13" letter-spacing="8" fill="#a78bfa" fill-opacity="0.6">WAKANDA FOREVER</text>
+  <ellipse cx="250" cy="120" rx="240" ry="60" fill="#7c3aed" opacity="0.35" filter="url(#soft)">
+    <animate attributeName="cx" values="250;750;250" dur="14s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="750" cy="200" rx="240" ry="50" fill="#4c1d95" opacity="0.5" filter="url(#soft)">
+    <animate attributeName="cx" values="750;250;750" dur="11s" repeatCount="indefinite"/>
+  </ellipse>
 
-  <rect x="0" y="40" width="1000" height="140" fill="url(#dim)"/>
-
-  <g clip-path="url(#trail)">
-    <rect x="0" y="40" width="1000" height="140" fill="url(#lit)">
-      <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite"/>
-    </rect>
-    <rect x="0" y="40" width="1000" height="140" fill="url(#hot)"/>
+  <g fill="#ffffff">
+    <circle cx="60" cy="18" r="1.2"><animate attributeName="opacity" values="0.1;1;0.1" dur="2.1s" repeatCount="indefinite"/></circle>
+    <circle cx="170" cy="40" r="1"><animate attributeName="opacity" values="0.1;1;0.1" dur="3.3s" repeatCount="indefinite"/></circle>
+    <circle cx="330" cy="14" r="1.3"><animate attributeName="opacity" values="0.1;1;0.1" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="470" cy="44" r="1"><animate attributeName="opacity" values="0.1;1;0.1" dur="1.9s" repeatCount="indefinite"/></circle>
+    <circle cx="640" cy="16" r="1.2"><animate attributeName="opacity" values="0.1;1;0.1" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="790" cy="38" r="1"><animate attributeName="opacity" values="0.1;1;0.1" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="930" cy="20" r="1.3"><animate attributeName="opacity" values="0.1;1;0.1" dur="2.8s" repeatCount="indefinite"/></circle>
   </g>
 
-  <!-- the panther -->
-  <g>
-    <animateTransform attributeName="transform" type="translate" values="-100 110;1040 110;1040 110" keyTimes="0;0.92;1" dur="9s" repeatCount="indefinite"/>
-    <g filter="url(#glow)" fill="#07030d" stroke="#a78bfa" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round">
-      <animateTransform attributeName="transform" type="translate" values="0 0;0 -4;0 0" dur="0.5s" repeatCount="indefinite"/>
+  <text x="500" y="38" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="13" letter-spacing="9" fill="#c4b5fd" filter="url(#glow)">
+    WAKANDA FOREVER
+    <animate attributeName="opacity" values="0.35;1;0.35" dur="3s" repeatCount="indefinite"/>
+  </text>
 
-      <path d="M-40 -4 Q-72 -18 -64 -46" fill="none" stroke-width="6">
-        <animateTransform attributeName="transform" type="rotate" values="-8 -40 -4;8 -40 -4;-8 -40 -4" dur="0.5s" repeatCount="indefinite"/>
+  <rect x="0" y="60" width="1000" height="140" fill="url(#dim)"/>
+  <g clip-path="url(#trail)">
+    <rect x="0" y="60" width="1000" height="140" fill="url(#lit)">
+      <animate attributeName="opacity" values="0.65;1;0.65" dur="2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="0" y="60" width="1000" height="140" fill="url(#hot)"/>
+  </g>
+  <g clip-path="url(#wave)" filter="url(#glow)">
+    <rect x="0" y="60" width="1000" height="140" fill="url(#bright)" opacity="0.9"/>
+  </g>
+
+  <rect x="0" y="198" width="1000" height="2" fill="#a78bfa" opacity="0.5"/>
+
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="-120 128;1060 128;1060 128;1060 128" keyTimes="0;0.8;0.97;1" dur="12s" repeatCount="indefinite"/>
+
+    <g stroke="url(#speed)" stroke-width="2" stroke-linecap="round">
+      <line x1="-190" y1="-14" x2="-90" y2="-14"><animate attributeName="opacity" values="0;1;0" dur="0.35s" repeatCount="indefinite"/></line>
+      <line x1="-220" y1="2" x2="-100" y2="2"><animate attributeName="opacity" values="0;1;0" dur="0.45s" begin="-0.1s" repeatCount="indefinite"/></line>
+      <line x1="-170" y1="18" x2="-80" y2="18"><animate attributeName="opacity" values="0;1;0" dur="0.4s" begin="-0.2s" repeatCount="indefinite"/></line>
+      <line x1="-200" y1="32" x2="-96" y2="32"><animate attributeName="opacity" values="0;1;0" dur="0.5s" begin="-0.3s" repeatCount="indefinite"/></line>
+    </g>
+
+    <g fill="#e9d5ff" filter="url(#glow)">
+      <circle cx="-70" cy="10" r="2.5"><animate attributeName="cx" values="-70;-170" dur="0.8s" repeatCount="indefinite"/><animate attributeName="cy" values="10;-10" dur="0.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0" dur="0.8s" repeatCount="indefinite"/></circle>
+      <circle cx="-70" cy="25" r="2"><animate attributeName="cx" values="-70;-160" dur="0.7s" begin="-0.2s" repeatCount="indefinite"/><animate attributeName="cy" values="25;45" dur="0.7s" begin="-0.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0" dur="0.7s" begin="-0.2s" repeatCount="indefinite"/></circle>
+      <circle cx="-70" cy="0" r="1.8"><animate attributeName="cx" values="-70;-180" dur="0.9s" begin="-0.4s" repeatCount="indefinite"/><animate attributeName="cy" values="0;-25" dur="0.9s" begin="-0.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0" dur="0.9s" begin="-0.4s" repeatCount="indefinite"/></circle>
+      <circle cx="-70" cy="35" r="2.2"><animate attributeName="cx" values="-70;-150" dur="0.6s" begin="-0.3s" repeatCount="indefinite"/><animate attributeName="cy" values="35;55" dur="0.6s" begin="-0.3s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0" dur="0.6s" begin="-0.3s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <ellipse cx="10" cy="8" rx="70" ry="42" fill="none" stroke="#a78bfa" stroke-width="1.5" opacity="0.5">
+      <animate attributeName="rx" values="60;95" dur="0.9s" repeatCount="indefinite"/>
+      <animate attributeName="ry" values="36;56" dur="0.9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0" dur="0.9s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <g filter="url(#rim)" fill="#07030d">
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -7;0 0" dur="0.6s" repeatCount="indefinite"/>
+
+      <path d="M-46 -4 C-70 -4 -82 -22 -76 -42" fill="none" stroke="#07030d" stroke-width="7" stroke-linecap="round">
+        <animate attributeName="d" values="M-46 -4 C-70 -4 -82 -22 -76 -42;M-46 -4 C-72 2 -92 -8 -90 -30;M-46 -4 C-70 -4 -82 -22 -76 -42" dur="0.6s" repeatCount="indefinite"/>
       </path>
 
-      <line x1="-28" y1="8" x2="-28" y2="30" stroke-width="7">
-        <animateTransform attributeName="transform" type="rotate" values="-35 -28 8;35 -28 8;-35 -28 8" dur="0.5s" repeatCount="indefinite"/>
-      </line>
-      <line x1="-14" y1="8" x2="-14" y2="30" stroke-width="7">
-        <animateTransform attributeName="transform" type="rotate" values="35 -14 8;-35 -14 8;35 -14 8" dur="0.5s" repeatCount="indefinite"/>
-      </line>
-      <line x1="22" y1="8" x2="22" y2="30" stroke-width="7">
-        <animateTransform attributeName="transform" type="rotate" values="35 22 8;-35 22 8;35 22 8" dur="0.5s" repeatCount="indefinite"/>
-      </line>
-      <line x1="34" y1="8" x2="34" y2="30" stroke-width="7">
-        <animateTransform attributeName="transform" type="rotate" values="-35 34 8;35 34 8;-35 34 8" dur="0.5s" repeatCount="indefinite"/>
-      </line>
+      <g transform="translate(-30 8)">
+        <g>
+          <animateTransform attributeName="transform" type="rotate" values="-45;45;-45" dur="0.6s" begin="-0.15s" repeatCount="indefinite"/>
+          <line x1="0" y1="0" x2="0" y2="16" stroke="#07030d" stroke-width="8" stroke-linecap="round"/>
+          <g transform="translate(0 16)">
+            <animateTransform attributeName="transform" type="rotate" values="0;55;0" dur="0.6s" begin="-0.15s" repeatCount="indefinite" additive="sum"/>
+            <line x1="0" y1="0" x2="0" y2="16" stroke="#07030d" stroke-width="6" stroke-linecap="round"/>
+            <ellipse cx="3" cy="17" rx="6" ry="3.5"/>
+          </g>
+        </g>
+      </g>
+      <g transform="translate(-16 8)">
+        <g>
+          <animateTransform attributeName="transform" type="rotate" values="45;-45;45" dur="0.6s" begin="-0.15s" repeatCount="indefinite"/>
+          <line x1="0" y1="0" x2="0" y2="16" stroke="#07030d" stroke-width="8" stroke-linecap="round"/>
+          <g transform="translate(0 16)">
+            <line x1="0" y1="0" x2="0" y2="16" stroke="#07030d" stroke-width="6" stroke-linecap="round"/>
+            <ellipse cx="3" cy="17" rx="6" ry="3.5"/>
+          </g>
+        </g>
+      </g>
 
-      <ellipse cx="0" cy="0" rx="44" ry="16"/>
-      <ellipse cx="50" cy="-8" rx="16" ry="13"/>
-      <polygon points="42,-17 46,-31 54,-19"/>
-      <polygon points="54,-19 61,-29 63,-14"/>
+      <g transform="translate(26 8)">
+        <g>
+          <animateTransform attributeName="transform" type="rotate" values="50;-50;50" dur="0.6s" repeatCount="indefinite"/>
+          <line x1="0" y1="0" x2="0" y2="16" stroke="#07030d" stroke-width="7" stroke-linecap="round"/>
+          <g transform="translate(0 16)">
+            <line x1="0" y1="0" x2="0" y2="15" stroke="#07030d" stroke-width="5" stroke-linecap="round"/>
+            <ellipse cx="3" cy="16" rx="6" ry="3.5"/>
+          </g>
+        </g>
+      </g>
+      <g transform="translate(38 8)">
+        <g>
+          <animateTransform attributeName="transform" type="rotate" values="-50;50;-50" dur="0.6s" repeatCount="indefinite"/>
+          <line x1="0" y1="0" x2="0" y2="16" stroke="#07030d" stroke-width="7" stroke-linecap="round"/>
+          <g transform="translate(0 16)">
+            <line x1="0" y1="0" x2="0" y2="15" stroke="#07030d" stroke-width="5" stroke-linecap="round"/>
+            <ellipse cx="3" cy="16" rx="6" ry="3.5"/>
+          </g>
+        </g>
+      </g>
+
+      <path d="M-52 -4 C-46 -24 6 -26 34 -16 L50 -10 C48 8 20 16 -14 15 C-40 15 -56 8 -52 -4 Z"/>
+      <path d="M36 -16 C40 -32 62 -34 74 -20 C80 -12 78 -4 70 -1 C62 3 46 2 40 -4 Z"/>
+      <polygon points="44,-26 48,-42 58,-28"/>
+      <polygon points="58,-28 67,-40 69,-22"/>
     </g>
+
     <g>
-      <animateTransform attributeName="transform" type="translate" values="0 0;0 -4;0 0" dur="0.5s" repeatCount="indefinite"/>
-      <polygon points="54,-11 63,-9 55,-6" fill="#ffffff"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -7;0 0" dur="0.6s" repeatCount="indefinite"/>
+      <polygon points="58,-19 70,-17 60,-13" fill="#ffffff" filter="url(#glow)"/>
     </g>
   </g>
 
-  <text x="500" y="204" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="11" letter-spacing="6" fill="#ffffff" fill-opacity="0.35">VIBRANIUM CONTRIBUTION GRID</text>
+  <g fill="none" stroke="#e9d5ff" stroke-width="4" stroke-linecap="round" filter="url(#glow)" stroke-dasharray="500" stroke-dashoffset="500">
+    <path d="M420 50 L560 215">
+      <animate attributeName="stroke-dashoffset" values="500;500;0;0;500" keyTimes="0;0.82;0.86;0.97;1" dur="12s" repeatCount="indefinite"/>
+    </path>
+    <path d="M470 45 L610 210">
+      <animate attributeName="stroke-dashoffset" values="500;500;500;0;0;500" keyTimes="0;0.82;0.84;0.88;0.97;1" dur="12s" repeatCount="indefinite"/>
+    </path>
+    <path d="M520 42 L660 205">
+      <animate attributeName="stroke-dashoffset" values="500;500;500;0;0;500" keyTimes="0;0.82;0.86;0.9;0.97;1" dur="12s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <text x="500" y="240" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="11" letter-spacing="7" fill="#ffffff" fill-opacity="0.4">VIBRANIUM CONTRIBUTION GRID</text>
 </svg>
