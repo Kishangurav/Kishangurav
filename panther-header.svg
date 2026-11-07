@@ -1,23 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" width="100%" height="280">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" width="100%" height="360">
   <defs>
-    <radialGradient id="bg" cx="50%" cy="45%" r="75%">
+    <radialGradient id="bg" cx="30%" cy="50%" r="85%">
       <stop offset="0%" stop-color="#1e0d38"/>
-      <stop offset="55%" stop-color="#0a0510"/>
+      <stop offset="55%" stop-color="#09040f"/>
       <stop offset="100%" stop-color="#000000"/>
     </radialGradient>
-    <linearGradient id="slash" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#c4b5fd" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#e9d5ff"/>
-      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="title" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="tg" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#ffffff"/>
       <stop offset="100%" stop-color="#a78bfa"/>
     </linearGradient>
     <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="1"/>
       <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
@@ -26,110 +21,273 @@
       <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
     </linearGradient>
     <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="30"/></filter>
+    <filter id="big" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
     <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
       <feGaussianBlur stdDeviation="4" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <clipPath id="titleclip">
-      <text x="500" y="140" text-anchor="middle" font-family="'Segoe UI','Arial Black',Arial,sans-serif" font-size="54" font-weight="900" letter-spacing="5">HI, I'M KISHAN GURAV</text>
+    <clipPath id="tclip">
+      <text x="372" y="190" text-anchor="middle" font-family="Consolas,'Courier New',monospace" font-size="46" font-weight="900">H</text>
+      <text x="400" y="190" text-anchor="middle" font-family="Consolas,'Courier New',monospace" font-size="46" font-weight="900">I</text>
+      <text x="428" y="190" text-anchor="middle" font-family="Consolas,'Courier New',monospace" font-size="46" font-weight="900">,</text>
+      <text x="484" y="190" text-anchor="middle" font-family="Consolas,'Courier New',monospace" font-size="46" font-weight="900">I</text>
+      <text x="512" y="190" text-anchor="middle" font-family="Consolas,'Courier New',monospace" font-size="46" font-weight="900">'</text>
+      <text x="540" y="190" text-anchor="middle" font-family="Consolas,'Courier New',monospace" font-size="46" font-weight="900">M</text>
+      <text x="596" y="190" text-anchor="middle" font-family="Consolas,'Courier New',monospace" font-size="46" font-weight="900">K</text>
+      <text x="624" y="190" text-anchor="middle" font-family="Consolas,'Courier New',monospace" font-size="46" font-weight="900">I</text>
+      <text x="652" y="190" text-anchor="middle" font-family="Consolas,'Courier New',monospace" font-size="46" font-weight="900">S</text>
+      <text x="680" y="190" text-anchor="middle" font-family="Consolas,'Courier New',monospace" font-size="46" font-weight="900">H</text>
+      <text x="708" y="190" text-anchor="middle" font-family="Consolas,'Courier New',monospace" font-size="46" font-weight="900">A</text>
+      <text x="736" y="190" text-anchor="middle" font-family="Consolas,'Courier New',monospace" font-size="46" font-weight="900">N</text>
+      <text x="792" y="190" text-anchor="middle" font-family="Consolas,'Courier New',monospace" font-size="46" font-weight="900">G</text>
+      <text x="820" y="190" text-anchor="middle" font-family="Consolas,'Courier New',monospace" font-size="46" font-weight="900">U</text>
+      <text x="848" y="190" text-anchor="middle" font-family="Consolas,'Courier New',monospace" font-size="46" font-weight="900">R</text>
+      <text x="876" y="190" text-anchor="middle" font-family="Consolas,'Courier New',monospace" font-size="46" font-weight="900">A</text>
+      <text x="904" y="190" text-anchor="middle" font-family="Consolas,'Courier New',monospace" font-size="46" font-weight="900">V</text>
     </clipPath>
-    <clipPath id="subclip">
-      <rect x="0" y="160" width="0" height="36">
-        <animate attributeName="width" values="0;1000;1000;0" keyTimes="0;0.25;0.9;1" dur="10s" repeatCount="indefinite"/>
-      </rect>
-    </clipPath>
+    <clipPath id="subclip"><rect x="358" y="214" width="0" height="30">
+      <animate attributeName="width" values="0;0;610;610;610" keyTimes="0;0.5;0.62;0.93;1" dur="14s" repeatCount="indefinite"/>
+    </rect></clipPath>
   </defs>
-
-  <rect width="1000" height="280" fill="url(#bg)"/>
-
-  <ellipse cx="200" cy="90" rx="260" ry="55" fill="#7c3aed" opacity="0.4" filter="url(#soft)">
-    <animate attributeName="cx" values="200;800;200" dur="13s" repeatCount="indefinite"/>
-  </ellipse>
-  <ellipse cx="800" cy="230" rx="260" ry="50" fill="#4c1d95" opacity="0.55" filter="url(#soft)">
-    <animate attributeName="cx" values="800;200;800" dur="10s" repeatCount="indefinite"/>
-  </ellipse>
-
-  <g stroke="#7c3aed" stroke-opacity="0.16" stroke-width="1">
-    <path d="M125 0V280M250 0V280M375 0V280M500 0V280M625 0V280M750 0V280M875 0V280"/>
-    <g>
-      <animateTransform attributeName="transform" type="translate" values="0 0;0 40" dur="3s" repeatCount="indefinite"/>
-      <path d="M0 -40H1000M0 0H1000M0 40H1000M0 80H1000M0 120H1000M0 160H1000M0 200H1000M0 240H1000M0 280H1000"/>
+  <rect width="1000" height="360" fill="url(#bg)"/>
+  <ellipse cx="200" cy="100" rx="260" ry="60" fill="#7c3aed" opacity="0.4" filter="url(#soft)"><animate attributeName="cx" values="200;800;200" dur="13s" repeatCount="indefinite"/></ellipse>
+  <ellipse cx="800" cy="290" rx="260" ry="55" fill="#4c1d95" opacity="0.55" filter="url(#soft)"><animate attributeName="cx" values="800;200;800" dur="10s" repeatCount="indefinite"/></ellipse>
+  <g stroke="#7c3aed" stroke-opacity="0.14" stroke-width="1">
+    <path d="M125 0V360M250 0V360M375 0V360M500 0V360M625 0V360M750 0V360M875 0V360"/>
+    <g><animateTransform attributeName="transform" type="translate" values="0 0;0 40" dur="3s" repeatCount="indefinite"/>
+      <path d="M0 -40H1000M0 0H1000M0 40H1000M0 80H1000M0 120H1000M0 160H1000M0 200H1000M0 240H1000M0 280H1000M0 320H1000M0 360H1000"/></g>
+  </g>
+  <g stroke="#c4b5fd" stroke-width="1.4" filter="url(#glow)">
+    <line x1="0" y1="40" x2="190" y2="165" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1">
+      <animate attributeName="stroke-dashoffset" values="1;1;0;0" keyTimes="0;0.02;0.11;1" dur="14s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.26;0.31;1" dur="14s" repeatCount="indefinite"/>
+    </line>
+    <line x1="0" y1="180" x2="190" y2="165" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1">
+      <animate attributeName="stroke-dashoffset" values="1;1;0;0" keyTimes="0;0.027;0.117;1" dur="14s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.26;0.31;1" dur="14s" repeatCount="indefinite"/>
+    </line>
+    <line x1="0" y1="320" x2="190" y2="165" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1">
+      <animate attributeName="stroke-dashoffset" values="1;1;0;0" keyTimes="0;0.034;0.124;1" dur="14s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.26;0.31;1" dur="14s" repeatCount="indefinite"/>
+    </line>
+    <line x1="1000" y1="40" x2="190" y2="165" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1">
+      <animate attributeName="stroke-dashoffset" values="1;1;0;0" keyTimes="0;0.041;0.131;1" dur="14s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.26;0.31;1" dur="14s" repeatCount="indefinite"/>
+    </line>
+    <line x1="1000" y1="320" x2="190" y2="165" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1">
+      <animate attributeName="stroke-dashoffset" values="1;1;0;0" keyTimes="0;0.048;0.138;1" dur="14s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.26;0.31;1" dur="14s" repeatCount="indefinite"/>
+    </line>
+    <line x1="250" y1="0" x2="190" y2="165" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1">
+      <animate attributeName="stroke-dashoffset" values="1;1;0;0" keyTimes="0;0.055;0.145;1" dur="14s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.26;0.31;1" dur="14s" repeatCount="indefinite"/>
+    </line>
+    <line x1="500" y1="0" x2="190" y2="165" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1">
+      <animate attributeName="stroke-dashoffset" values="1;1;0;0" keyTimes="0;0.062;0.152;1" dur="14s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.26;0.31;1" dur="14s" repeatCount="indefinite"/>
+    </line>
+    <line x1="750" y1="0" x2="190" y2="165" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1">
+      <animate attributeName="stroke-dashoffset" values="1;1;0;0" keyTimes="0;0.069;0.159;1" dur="14s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.26;0.31;1" dur="14s" repeatCount="indefinite"/>
+    </line>
+    <line x1="250" y1="360" x2="190" y2="165" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1">
+      <animate attributeName="stroke-dashoffset" values="1;1;0;0" keyTimes="0;0.076;0.166;1" dur="14s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.26;0.31;1" dur="14s" repeatCount="indefinite"/>
+    </line>
+    <line x1="500" y1="360" x2="190" y2="165" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1">
+      <animate attributeName="stroke-dashoffset" values="1;1;0;0" keyTimes="0;0.083;0.173;1" dur="14s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.26;0.31;1" dur="14s" repeatCount="indefinite"/>
+    </line>
+    <line x1="750" y1="360" x2="190" y2="165" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1">
+      <animate attributeName="stroke-dashoffset" values="1;1;0;0" keyTimes="0;0.09;0.18;1" dur="14s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.26;0.31;1" dur="14s" repeatCount="indefinite"/>
+    </line>
+    <line x1="1000" y1="180" x2="190" y2="165" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1">
+      <animate attributeName="stroke-dashoffset" values="1;1;0;0" keyTimes="0;0.097;0.187;1" dur="14s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.26;0.31;1" dur="14s" repeatCount="indefinite"/>
+    </line>
+  </g>
+  <g fill="none" stroke="#a78bfa" stroke-width="1.5">
+    <circle cx="190" cy="165" r="158" stroke-dasharray="6 14">
+      <animate attributeName="opacity" values="0;0;0.5;0.5" keyTimes="0;0.3;0.38;1" dur="14s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="rotate" values="0 190 165;360 190 165" dur="24s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="190" cy="165" r="182" stroke-dasharray="30 12 4 12" stroke="#c4b5fd">
+      <animate attributeName="opacity" values="0;0;0.4;0.4" keyTimes="0;0.32;0.4;1" dur="14s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="rotate" values="360 190 165;0 190 165" dur="18s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <g transform="translate(190 165)">
+    <path d="M0,-62 L28,-58 L68,-118 L104,-62 L128,-18 L110,34 L74,72 L32,96 L0,102 L-32,96 L-74,72 L-110,34 L-128,-18 L-104,-62 L-68,-118 L-28,-58 Z" fill="#7c3aed" filter="url(#big)">
+      <animate attributeName="opacity" values="0;0;0.7;0.35;0.7;0.35;0.65;0.4;0.4" keyTimes="0;0.26;0.34;0.5;0.62;0.74;0.86;0.93;1" dur="14s" repeatCount="indefinite"/>
+    </path>
+    <path d="M0,-62 L28,-58 L68,-118 L104,-62 L128,-18 L110,34 L74,72 L32,96 L0,102 L-32,96 L-74,72 L-110,34 L-128,-18 L-104,-62 L-68,-118 L-28,-58 Z" fill="#0b0615" fill-opacity="0" stroke="#c4b5fd" stroke-width="2.5" stroke-linejoin="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" filter="url(#glow)">
+      <animate attributeName="stroke-dashoffset" values="1;1;0;0" keyTimes="0;0.06;0.24;1" dur="14s" repeatCount="indefinite"/>
+      <animate attributeName="fill-opacity" values="0;0;1;1" keyTimes="0;0.2;0.29;1" dur="14s" repeatCount="indefinite"/>
+    </path>
+    <g fill="none" stroke="#a78bfa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M20,-46 L78,-62" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"><animate attributeName="stroke-dashoffset" values="1;1;0;0" keyTimes="0;0.22;0.27;1" dur="14s" repeatCount="indefinite"/></path>
+      <path d="M-20,-46 L-78,-62" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"><animate attributeName="stroke-dashoffset" values="1;1;0;0" keyTimes="0;0.226;0.276;1" dur="14s" repeatCount="indefinite"/></path>
+      <path d="M70,-4 L98,4" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"><animate attributeName="stroke-dashoffset" values="1;1;0;0" keyTimes="0;0.232;0.282;1" dur="14s" repeatCount="indefinite"/></path>
+      <path d="M66,12 L92,24" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"><animate attributeName="stroke-dashoffset" values="1;1;0;0" keyTimes="0;0.238;0.288;1" dur="14s" repeatCount="indefinite"/></path>
+      <path d="M-70,-4 L-98,4" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"><animate attributeName="stroke-dashoffset" values="1;1;0;0" keyTimes="0;0.244;0.294;1" dur="14s" repeatCount="indefinite"/></path>
+      <path d="M-66,12 L-92,24" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"><animate attributeName="stroke-dashoffset" values="1;1;0;0" keyTimes="0;0.25;0.3;1" dur="14s" repeatCount="indefinite"/></path>
+      <path d="M-14,-50 L0,-34 L14,-50" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"><animate attributeName="stroke-dashoffset" values="1;1;0;0" keyTimes="0;0.256;0.306;1" dur="14s" repeatCount="indefinite"/></path>
+      <path d="M0,46 L0,62" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"><animate attributeName="stroke-dashoffset" values="1;1;0;0" keyTimes="0;0.262;0.312;1" dur="14s" repeatCount="indefinite"/></path>
+      <path d="M0,62 Q22,80 46,66" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"><animate attributeName="stroke-dashoffset" values="1;1;0;0" keyTimes="0;0.268;0.318;1" dur="14s" repeatCount="indefinite"/></path>
+      <path d="M0,62 Q-22,80 -46,66" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"><animate attributeName="stroke-dashoffset" values="1;1;0;0" keyTimes="0;0.274;0.324;1" dur="14s" repeatCount="indefinite"/></path>
+    </g>
+    <path d="M-14,28 L14,28 L0,46 Z" fill="#c4b5fd"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.27;0.3;1" dur="14s" repeatCount="indefinite"/></path>
+    <g filter="url(#glow)" fill="#ffffff">
+      <g transform="translate(46 -20)"><g>
+        <animateTransform attributeName="transform" type="scale" values="1 0;1 0;1 1.6;1 1;1 1;1 0.05;1 1;1 1" keyTimes="0;0.28;0.3;0.33;0.7;0.72;0.74;1" dur="14s" repeatCount="indefinite"/>
+        <polygon points="-22,4 28,-14 6,10"/>
+      </g></g>
+      <g transform="translate(-46 -20)"><g>
+        <animateTransform attributeName="transform" type="scale" values="1 0;1 0;1 1.6;1 1;1 1;1 0.05;1 1;1 1" keyTimes="0;0.28;0.3;0.33;0.7;0.72;0.74;1" dur="14s" repeatCount="indefinite"/>
+        <polygon points="22,4 -28,-14 -6,10"/>
+      </g></g>
+      <animate attributeName="opacity" values="0;0;1;0.65;1;0.65;1;1" keyTimes="0;0.28;0.3;0.5;0.6;0.8;0.9;1" dur="14s" repeatCount="indefinite"/>
+    </g>
+    <g fill="#f5f3ff" filter="url(#glow)">
+      <polygon points="-104,110 -88,110 -96,128" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.4;0.42;1" dur="14s" repeatCount="indefinite"/></polygon>
+      <polygon points="-80,121 -64,121 -72,141" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.408;0.428;1" dur="14s" repeatCount="indefinite"/></polygon>
+      <polygon points="-56,128 -40,128 -48,150" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.416;0.436;1" dur="14s" repeatCount="indefinite"/></polygon>
+      <polygon points="-32,133 -16,133 -24,157" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.424;0.444;1" dur="14s" repeatCount="indefinite"/></polygon>
+      <polygon points="-8,134 8,134 0,160" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.432;0.452;1" dur="14s" repeatCount="indefinite"/></polygon>
+      <polygon points="16,133 32,133 24,157" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.44;0.46;1" dur="14s" repeatCount="indefinite"/></polygon>
+      <polygon points="40,128 56,128 48,150" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.448;0.468;1" dur="14s" repeatCount="indefinite"/></polygon>
+      <polygon points="64,121 80,121 72,141" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.456;0.476;1" dur="14s" repeatCount="indefinite"/></polygon>
+      <polygon points="88,110 104,110 96,128" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.464;0.484;1" dur="14s" repeatCount="indefinite"/></polygon>
     </g>
   </g>
-
-  <g fill="none" stroke="#a78bfa" stroke-width="1.5" opacity="0.5">
-    <circle cx="500" cy="140" r="125" stroke-dasharray="6 14">
-      <animateTransform attributeName="transform" type="rotate" values="0 500 140;360 500 140" dur="24s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="500" cy="140" r="100" stroke-dasharray="30 10 4 10" stroke="#c4b5fd">
-      <animateTransform attributeName="transform" type="rotate" values="360 500 140;0 500 140" dur="16s" repeatCount="indefinite"/>
-    </circle>
+  <circle cx="190" cy="165" r="10" fill="none" stroke="#e9d5ff" stroke-width="3" opacity="0" filter="url(#glow)">
+    <animate attributeName="r" values="10;10;560;560" keyTimes="0;0.29;0.42;1" dur="14s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;0.9;0;0" keyTimes="0;0.29;0.295;0.42;1" dur="14s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="190" cy="165" r="10" fill="none" stroke="#e9d5ff" stroke-width="3" opacity="0" filter="url(#glow)">
+    <animate attributeName="r" values="10;10;560;560" keyTimes="0;0.31;0.44;1" dur="14s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;0.9;0;0" keyTimes="0;0.31;0.315;0.44;1" dur="14s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="190" cy="165" r="10" fill="none" stroke="#e9d5ff" stroke-width="3" opacity="0" filter="url(#glow)">
+    <animate attributeName="r" values="10;10;560;560" keyTimes="0;0.33;0.46;1" dur="14s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;0.9;0;0" keyTimes="0;0.33;0.335;0.46;1" dur="14s" repeatCount="indefinite"/>
+  </circle>
+  <rect width="1000" height="360" fill="#ffffff" opacity="0"><animate attributeName="opacity" values="0;0;0.55;0;0" keyTimes="0;0.285;0.292;0.34;1" dur="14s" repeatCount="indefinite"/></rect>
+  <g fill="none" stroke="#f5f3ff" stroke-width="2.5" stroke-linejoin="round" filter="url(#glow)">
+    <polyline points="190,165 170,120 205,95 175,50 200,0" opacity="0"><animate attributeName="opacity" values="0;0;1;0;1;0;0;1;0;0;1;0;0" keyTimes="0;0.29;0.294;0.302;0.306;0.32;0.56;0.563;0.575;0.79;0.793;0.8;1" dur="14s" repeatCount="indefinite"/></polyline>
+    <polyline points="190,165 235,140 215,100 270,70 260,20 300,0" opacity="0"><animate attributeName="opacity" values="0;0;1;0;1;0;0;1;0;0;1;0;0" keyTimes="0;0.294;0.298;0.306;0.31;0.324;0.563;0.566;0.578;0.794;0.797;0.804;1" dur="14s" repeatCount="indefinite"/></polyline>
+    <polyline points="190,165 140,150 150,105 105,80 120,30 80,0" opacity="0"><animate attributeName="opacity" values="0;0;1;0;1;0;0;1;0;0;1;0;0" keyTimes="0;0.298;0.302;0.31;0.314;0.328;0.566;0.569;0.581;0.798;0.801;0.808;1" dur="14s" repeatCount="indefinite"/></polyline>
   </g>
-
-  <g fill="none" stroke="url(#slash)" stroke-width="5" stroke-linecap="round" filter="url(#glow)" stroke-dasharray="360" stroke-dashoffset="360">
-    <path d="M50 15 L270 265"><animate attributeName="stroke-dashoffset" values="360;0;0;360" keyTimes="0;0.12;0.85;1" dur="8s" repeatCount="indefinite"/></path>
-    <path d="M105 8 L325 258"><animate attributeName="stroke-dashoffset" values="360;360;0;0;360" keyTimes="0;0.05;0.17;0.85;1" dur="8s" repeatCount="indefinite"/></path>
-    <path d="M160 3 L380 250"><animate attributeName="stroke-dashoffset" values="360;360;0;0;360" keyTimes="0;0.1;0.22;0.85;1" dur="8s" repeatCount="indefinite"/></path>
-    <path d="M950 265 L730 15"><animate attributeName="stroke-dashoffset" values="360;360;0;0;360" keyTimes="0;0.15;0.27;0.85;1" dur="8s" repeatCount="indefinite"/></path>
-    <path d="M895 272 L675 22"><animate attributeName="stroke-dashoffset" values="360;360;0;0;360" keyTimes="0;0.2;0.32;0.85;1" dur="8s" repeatCount="indefinite"/></path>
-    <path d="M840 277 L620 27"><animate attributeName="stroke-dashoffset" values="360;360;0;0;360" keyTimes="0;0.25;0.37;0.85;1" dur="8s" repeatCount="indefinite"/></path>
-  </g>
-
-  <g fill="#ffffff" filter="url(#glow)">
-    <polygon points="425,34 478,48 436,56"/>
-    <polygon points="575,34 522,48 564,56"/>
-    <animate attributeName="opacity" values="0.55;1;0.55" dur="2.5s" repeatCount="indefinite"/>
-  </g>
-
-  <g font-family="'Segoe UI','Arial Black',Arial,sans-serif" font-size="54" font-weight="900" letter-spacing="5" text-anchor="middle">
-    <text x="500" y="140" fill="#7c3aed" opacity="0">
-      HI, I'M KISHAN GURAV
-      <animate attributeName="opacity" values="0;0;0.8;0;0.6;0;0" keyTimes="0;0.7;0.71;0.72;0.73;0.74;1" dur="5s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="translate" values="0 0;-6 0;5 0;0 0" keyTimes="0;0.5;0.8;1" dur="0.4s" repeatCount="indefinite"/>
+  <g font-family="Consolas,'Courier New',monospace" font-size="46" font-weight="900">
+    <text x="358" y="190" textLength="560" lengthAdjust="spacing" fill="#7c3aed" opacity="0">HI, I'M KISHAN GURAV
+      <animate attributeName="opacity" values="0;0;0.8;0;0.6;0;0;0.8;0;0.5;0;0" keyTimes="0;0.6;0.601;0.606;0.609;0.614;0.84;0.841;0.847;0.85;0.855;1" dur="14s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0;-6 0;3 0;0 0" keyTimes="0;0.4;0.7;1" dur="0.3s" repeatCount="indefinite"/>
     </text>
-    <text x="500" y="140" fill="#e9d5ff" opacity="0">
-      HI, I'M KISHAN GURAV
-      <animate attributeName="opacity" values="0;0;0.7;0;0.5;0;0" keyTimes="0;0.7;0.715;0.725;0.735;0.745;1" dur="5s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="translate" values="0 0;6 0;-5 0;0 0" keyTimes="0;0.5;0.8;1" dur="0.4s" repeatCount="indefinite"/>
-    </text>
-    <text x="500" y="140" fill="url(#title)" filter="url(#glow)">
-      HI, I'M KISHAN GURAV
-      <animate attributeName="opacity" values="0;1;1" keyTimes="0;0.08;1" dur="2s" fill="freeze"/>
+    <text x="358" y="190" textLength="560" lengthAdjust="spacing" fill="#e9d5ff" opacity="0">HI, I'M KISHAN GURAV
+      <animate attributeName="opacity" values="0;0;0.8;0;0.6;0;0;0.8;0;0.5;0;0" keyTimes="0;0.6;0.605;0.61;0.613;0.618;0.84;0.845;0.851;0.854;0.859;1" dur="14s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0;6 0;-3 0;0 0" keyTimes="0;0.4;0.7;1" dur="0.3s" repeatCount="indefinite"/>
     </text>
   </g>
-
-  <g clip-path="url(#titleclip)">
-    <rect x="-200" y="80" width="160" height="80" fill="url(#shine)" transform="skewX(-20)">
-      <animate attributeName="x" values="-300;1100;1100" keyTimes="0;0.4;1" dur="5s" repeatCount="indefinite"/>
+  <g font-family="Consolas,'Courier New',monospace" font-size="46" font-weight="900" text-anchor="middle" fill="url(#tg)" filter="url(#glow)">
+    <text x="372" y="190" opacity="0">H
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.33;0.345;1" dur="14s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 -26;0 -26;0 0;0 0" keyTimes="0;0.33;0.35;1" dur="14s" repeatCount="indefinite"/>
+    </text>
+    <text x="400" y="190" opacity="0">I
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.341;0.356;1" dur="14s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 -26;0 -26;0 0;0 0" keyTimes="0;0.341;0.361;1" dur="14s" repeatCount="indefinite"/>
+    </text>
+    <text x="428" y="190" opacity="0">,
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.352;0.367;1" dur="14s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 -26;0 -26;0 0;0 0" keyTimes="0;0.352;0.372;1" dur="14s" repeatCount="indefinite"/>
+    </text>
+    <text x="484" y="190" opacity="0">I
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.363;0.378;1" dur="14s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 -26;0 -26;0 0;0 0" keyTimes="0;0.363;0.383;1" dur="14s" repeatCount="indefinite"/>
+    </text>
+    <text x="512" y="190" opacity="0">'
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.374;0.389;1" dur="14s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 -26;0 -26;0 0;0 0" keyTimes="0;0.374;0.394;1" dur="14s" repeatCount="indefinite"/>
+    </text>
+    <text x="540" y="190" opacity="0">M
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.385;0.4;1" dur="14s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 -26;0 -26;0 0;0 0" keyTimes="0;0.385;0.405;1" dur="14s" repeatCount="indefinite"/>
+    </text>
+    <text x="596" y="190" opacity="0">K
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.396;0.411;1" dur="14s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 -26;0 -26;0 0;0 0" keyTimes="0;0.396;0.416;1" dur="14s" repeatCount="indefinite"/>
+    </text>
+    <text x="624" y="190" opacity="0">I
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.407;0.422;1" dur="14s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 -26;0 -26;0 0;0 0" keyTimes="0;0.407;0.427;1" dur="14s" repeatCount="indefinite"/>
+    </text>
+    <text x="652" y="190" opacity="0">S
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.418;0.433;1" dur="14s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 -26;0 -26;0 0;0 0" keyTimes="0;0.418;0.438;1" dur="14s" repeatCount="indefinite"/>
+    </text>
+    <text x="680" y="190" opacity="0">H
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.429;0.444;1" dur="14s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 -26;0 -26;0 0;0 0" keyTimes="0;0.429;0.449;1" dur="14s" repeatCount="indefinite"/>
+    </text>
+    <text x="708" y="190" opacity="0">A
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.44;0.455;1" dur="14s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 -26;0 -26;0 0;0 0" keyTimes="0;0.44;0.46;1" dur="14s" repeatCount="indefinite"/>
+    </text>
+    <text x="736" y="190" opacity="0">N
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.451;0.466;1" dur="14s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 -26;0 -26;0 0;0 0" keyTimes="0;0.451;0.471;1" dur="14s" repeatCount="indefinite"/>
+    </text>
+    <text x="792" y="190" opacity="0">G
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.462;0.477;1" dur="14s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 -26;0 -26;0 0;0 0" keyTimes="0;0.462;0.482;1" dur="14s" repeatCount="indefinite"/>
+    </text>
+    <text x="820" y="190" opacity="0">U
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.473;0.488;1" dur="14s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 -26;0 -26;0 0;0 0" keyTimes="0;0.473;0.493;1" dur="14s" repeatCount="indefinite"/>
+    </text>
+    <text x="848" y="190" opacity="0">R
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.484;0.499;1" dur="14s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 -26;0 -26;0 0;0 0" keyTimes="0;0.484;0.504;1" dur="14s" repeatCount="indefinite"/>
+    </text>
+    <text x="876" y="190" opacity="0">A
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.495;0.51;1" dur="14s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 -26;0 -26;0 0;0 0" keyTimes="0;0.495;0.515;1" dur="14s" repeatCount="indefinite"/>
+    </text>
+    <text x="904" y="190" opacity="0">V
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.506;0.521;1" dur="14s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 -26;0 -26;0 0;0 0" keyTimes="0;0.506;0.526;1" dur="14s" repeatCount="indefinite"/>
+    </text>
+  </g>
+  <g clip-path="url(#tclip)">
+    <rect x="-200" y="130" width="140" height="80" fill="url(#shine)" transform="skewX(-20)">
+      <animate attributeName="x" values="-300;-300;1100;1100;-300;1100;1100" keyTimes="0;0.6;0.7;0.78;0.84;0.92;1" dur="14s" repeatCount="indefinite"/>
     </rect>
   </g>
-
-  <rect x="180" y="152" width="640" height="3" fill="url(#beam)" filter="url(#glow)">
-    <animate attributeName="opacity" values="0.3;1;0.3" dur="2.5s" repeatCount="indefinite"/>
-  </rect>
-  <circle cx="180" cy="153.5" r="4" fill="#ffffff" filter="url(#glow)">
-    <animate attributeName="cx" values="180;820;180" dur="3.5s" repeatCount="indefinite"/>
+  <rect x="358" y="204" width="570" height="3" fill="url(#beam)" filter="url(#glow)"><animate attributeName="opacity" values="0;0;1;0.4;1;0.4;1;0.4;1;1" keyTimes="0;0.45;0.5;0.56;0.62;0.7;0.78;0.86;0.93;1" dur="14s" repeatCount="indefinite"/></rect>
+  <circle cx="358" cy="205.5" r="4" fill="#ffffff" filter="url(#glow)" opacity="0">
+    <animate attributeName="cx" values="358;358;928;358;928;358;928;928" keyTimes="0;0.5;0.58;0.66;0.74;0.82;0.9;1" dur="14s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5;0.502;1" dur="14s" repeatCount="indefinite"/>
   </circle>
-
-  <g clip-path="url(#subclip)">
-    <text x="500" y="185" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="17" letter-spacing="3" fill="#c4b5fd">AI/ML ENGINEER  &#8226;  FULL STACK DEVELOPER  &#8226;  BLOCKCHAIN ENTHUSIAST</text>
-  </g>
-
-  <text x="500" y="250" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="13" letter-spacing="10" fill="#ffffff" fill-opacity="0.5" filter="url(#glow)">
-    WAKANDA FOREVER
-    <animate attributeName="fill-opacity" values="0.2;0.9;0.2" dur="3.5s" repeatCount="indefinite"/>
+  <g clip-path="url(#subclip)"><text x="358" y="236" textLength="600" lengthAdjust="spacing" font-family="Consolas,'Courier New',monospace" font-size="15" fill="#c4b5fd">AI/ML ENGINEER  *  FULL STACK DEV  *  BLOCKCHAIN</text></g>
+  <text x="360" y="300" font-family="Consolas,'Courier New',monospace" font-size="14" letter-spacing="10" fill="#ffffff" filter="url(#glow)" opacity="0">WAKANDA FOREVER
+    <animate attributeName="opacity" values="0;0;0.9;0.3;0.9;0.3;0.9;0.9" keyTimes="0;0.62;0.66;0.72;0.78;0.85;0.92;1" dur="14s" repeatCount="indefinite"/>
   </text>
-
   <g fill="#c4b5fd" filter="url(#glow)">
-    <circle cx="70" cy="280" r="2"><animate attributeName="cy" values="290;-10" dur="6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="6s" repeatCount="indefinite"/></circle>
-    <circle cx="150" cy="280" r="1.5"><animate attributeName="cy" values="290;-10" dur="8s" begin="1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="8s" begin="1s" repeatCount="indefinite"/></circle>
-    <circle cx="260" cy="280" r="2.5"><animate attributeName="cy" values="290;-10" dur="7s" begin="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="7s" begin="2s" repeatCount="indefinite"/></circle>
-    <circle cx="370" cy="280" r="1.5"><animate attributeName="cy" values="290;-10" dur="9s" begin="0.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="9s" begin="0.5s" repeatCount="indefinite"/></circle>
-    <circle cx="470" cy="280" r="2"><animate attributeName="cy" values="290;-10" dur="6.5s" begin="3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="6.5s" begin="3s" repeatCount="indefinite"/></circle>
-    <circle cx="560" cy="280" r="2.5"><animate attributeName="cy" values="290;-10" dur="8s" begin="1.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="8s" begin="1.5s" repeatCount="indefinite"/></circle>
-    <circle cx="660" cy="280" r="1.5"><animate attributeName="cy" values="290;-10" dur="7s" begin="4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="7s" begin="4s" repeatCount="indefinite"/></circle>
-    <circle cx="760" cy="280" r="2"><animate attributeName="cy" values="290;-10" dur="9s" begin="2.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="9s" begin="2.5s" repeatCount="indefinite"/></circle>
-    <circle cx="850" cy="280" r="1.5"><animate attributeName="cy" values="290;-10" dur="6s" begin="3.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="6s" begin="3.5s" repeatCount="indefinite"/></circle>
-    <circle cx="940" cy="280" r="2.5"><animate attributeName="cy" values="290;-10" dur="8s" begin="0.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="8s" begin="0.8s" repeatCount="indefinite"/></circle>
+    <circle cx="351" cy="360" r="1.5"><animate attributeName="cy" values="370;-10" dur="9s" begin="3.9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="9s" begin="3.9s" repeatCount="indefinite"/></circle>
+    <circle cx="94" cy="360" r="2.5"><animate attributeName="cy" values="370;-10" dur="6s" begin="2.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="6s" begin="2.2s" repeatCount="indefinite"/></circle>
+    <circle cx="79" cy="360" r="2.5"><animate attributeName="cy" values="370;-10" dur="7s" begin="0.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="7s" begin="0.2s" repeatCount="indefinite"/></circle>
+    <circle cx="464" cy="360" r="2"><animate attributeName="cy" values="370;-10" dur="6s" begin="1.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="6s" begin="1.4s" repeatCount="indefinite"/></circle>
+    <circle cx="584" cy="360" r="2"><animate attributeName="cy" values="370;-10" dur="6s" begin="5.0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="6s" begin="5.0s" repeatCount="indefinite"/></circle>
+    <circle cx="146" cy="360" r="1.5"><animate attributeName="cy" values="370;-10" dur="6s" begin="3.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="6s" begin="3.5s" repeatCount="indefinite"/></circle>
+    <circle cx="426" cy="360" r="1.5"><animate attributeName="cy" values="370;-10" dur="7s" begin="0.3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="7s" begin="0.3s" repeatCount="indefinite"/></circle>
+    <circle cx="899" cy="360" r="1.5"><animate attributeName="cy" values="370;-10" dur="8s" begin="2.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="8s" begin="2.5s" repeatCount="indefinite"/></circle>
+    <circle cx="573" cy="360" r="1.5"><animate attributeName="cy" values="370;-10" dur="8s" begin="3.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="8s" begin="3.4s" repeatCount="indefinite"/></circle>
+    <circle cx="718" cy="360" r="1.5"><animate attributeName="cy" values="370;-10" dur="6s" begin="3.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="6s" begin="3.5s" repeatCount="indefinite"/></circle>
+    <circle cx="674" cy="360" r="1.5"><animate attributeName="cy" values="370;-10" dur="8s" begin="0.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="8s" begin="0.6s" repeatCount="indefinite"/></circle>
+    <circle cx="749" cy="360" r="1.5"><animate attributeName="cy" values="370;-10" dur="6s" begin="3.7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="6s" begin="3.7s" repeatCount="indefinite"/></circle>
+    <circle cx="528" cy="360" r="2.5"><animate attributeName="cy" values="370;-10" dur="9s" begin="4.7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="9s" begin="4.7s" repeatCount="indefinite"/></circle>
+    <circle cx="496" cy="360" r="2.5"><animate attributeName="cy" values="370;-10" dur="9s" begin="2.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="9s" begin="2.2s" repeatCount="indefinite"/></circle>
   </g>
+  <rect width="1000" height="360" fill="#000000" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.935;0.975;0.995;1" dur="14s" repeatCount="indefinite"/></rect>
 </svg>
