@@ -114,9 +114,10 @@ AI-powered platform letting users report traffic violations via image evidence, 
 
 </div>
 
-Tech Stack
-<div align="center">Languages & Backend
-
+##Tech Stack
+<div align="center">
+  
+Languages & Backend
 
 <img src="https://skillicons.dev/icons?i=python,java,c,dotnet,fastapi,nodejs,express,django,flask&theme=dark&perline=10" alt="Python, Java, C, .NET, FastAPI, Node.js, Express, Django, Flask" height="48" />
 
