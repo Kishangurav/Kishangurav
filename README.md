@@ -114,7 +114,8 @@ AI-powered platform letting users report traffic violations via image evidence, 
 
 </div>
 
-##Tech Stack
+##  Tech Stack
+
 <div align="center">
   
 Languages & Backend
