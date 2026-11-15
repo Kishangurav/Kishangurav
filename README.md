@@ -1,10 +1,6 @@
-<div align="center"><img src="https://raw.githubusercontent.com/Kishangurav/Kishangurav/main/panther-header.svg?v=1" width="100%" alt="Black Panther themed header"/><a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&width=800&height=50&lines=Wakanda+Forever;Final-Year+AI%26ML+Engineer+%40+RNSIT;Building+Generative+AI+%26+RAG+Systems;Bridging+AI+with+Blockchain;Turning+Ideas+into+Scalable+Software" alt="Typing SVG" />
+<div align="center"><img src="https://raw.githubusercontent.com/Kishangurav/Kishangurav/main/panther-header.svg?v=1" width="75%" alt="Black Panther themed header"/><a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&width=620&height=42&lines=Wakanda+Forever;Final-Year+AI%26ML+Engineer+%40+RNSIT;Building+Generative+AI+%26+RAG+Systems;Bridging+AI+with+Blockchain;Turning+Ideas+into+Scalable+Software" alt="Typing SVG" />
 </a></div><img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=3&section=header" width="100%"/>
-</div>
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
-
 ##  About Me
 
 ```yaml
